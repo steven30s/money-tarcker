@@ -1,0 +1,3 @@
+# Set default behavior to automatically handle text files and use LF line endings.
+# This ensures cross-platform compatibility, especially for build scripts on services like Vercel.
+* text=auto eol=lf 
