@@ -99,7 +99,7 @@ function TransactionForm({ onTransactionAdded, editTransaction, onCancelEdit, ca
 
   return (
     <div className="card">
-      <h2>{editTransaction ? '编辑记录' : '添加新记录'}</h2>
+      <h2>{editTransaction ? '编辑交易记录' : '添加交易记录'}</h2>
 
       <form onSubmit={handleSubmit}>
         <div className="form-group">
